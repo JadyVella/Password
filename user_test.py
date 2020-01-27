@@ -77,6 +77,11 @@ class TestUser(unittest.TestCase):
 
          self.assertEqual(found_user.login_username, test_user.login_username)
 
+     def test_user_exists(self):
+         '''
+         test to check if we can return a boolean if user doesn't exist
+         '''
+
 
 
     
