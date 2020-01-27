@@ -19,8 +19,8 @@ THIS APPLICATION SHOULD ENABLE ONE TO:
 	3.Save the person's credentials details
 	4.Authenticate the person to log into their account and view their credentials. A person should be able to login to their account using the password that they created and NOT any password.
 
-To view this project follow this link https://jadyvella.github.io/Password/
-
-
 # Author Information
 The person who created this file and styled it is Felix
+
+# Set UP Instructions
+To view this project follow this link https://jadyvella.github.io/Password/
