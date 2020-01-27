@@ -29,6 +29,12 @@ class User:
 
         User.user_list.remove(self)
 
+    @classmethod
+    def find_by_password(cls,password):
+        '''
+        Method that takes in password and display the user that matches the password
+        '''
+
 
 
 
