@@ -7,10 +7,10 @@
 
       def __init__(self,login_username,password):
 
-#        # docstring removed for simplicity
+        # docstring removed for simplicity
 
-#          self.login_username = login_username
-#          self.password = password
+          self.login_username = login_username
+          self.password = password
 
 
 #      def save_user(self):
