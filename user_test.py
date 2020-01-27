@@ -17,7 +17,7 @@
          self.new_user = User("Jady","SecretKey")
 
 
-#     def test_init(self):
+     def test_init(self):
 #         '''
 #         test_init test case to test if the object is properly initialized
 #         '''
