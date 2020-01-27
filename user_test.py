@@ -1,7 +1,7 @@
- import unittest
- from user import User
+import unittest
+from user import User
 
- class TestUser(unittest.TestCase):
+class TestUser(unittest.TestCase):
      '''
      Test class that defines test cases for the User class behaviour
 
@@ -53,5 +53,5 @@
          self.assertEqual(len(User.user_list),2)
 
 
- if __name__ == '__main__':
+if __name__ == '__main__':
      unittest.main()
