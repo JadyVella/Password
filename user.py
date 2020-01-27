@@ -3,7 +3,7 @@
       Class that generates new instances of users.
       """
 
-    #   user_list = [] # Empty contact list
+       user_list = [] # Empty contact list
 
       def __init__(self,login_username,password):
 
