@@ -48,7 +48,7 @@ class TestUser(unittest.TestCase):
          '''
 
          self.new_user.save_user()
-         test_user = User("Test", "password")
+         test_user = User("Test", "ScretKey")
          test_user.save_user()
          self.assertEqual(len(User.user_list),2)
 
@@ -58,16 +58,26 @@ class TestUser(unittest.TestCase):
          '''
 
          self.new_user.save_user()
-         test_user = User("Test", "password")
+         test_user = User("Test", "SecretKey")
          test_user.save_user()
 
          self.new_user.delete_user()
          self.assertEqual(len(User.user_list),1)
 
-     def test_find_user_by_password():
+     def test_find_user_by_password(self):
          '''
          Test to see if we can find a user by password and display information
          '''
+
+         self.new_user.save_user()
+         test_user = User("Test", "SecretKey")
+         test_user.save_user()
+
+         found_user = User.find_by_password("SecretKey")
+
+         self.assertEqual(found_user.login_username, test_user.login_username)
+
+
 
     
 
