@@ -42,7 +42,7 @@
 
 #         User.user_list = []
     
-#     def test_save_multiple_user(self):
+     def test_save_multiple_user(self):
 #         '''
 #         test_save_multiple_user to test if we can save a variety of user objects to the user_list
 #         '''
