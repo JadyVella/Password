@@ -5,7 +5,7 @@ class User:
     """
 
 
-    user_list = [] # Empty contact list
+    user_list = [] # Empty user list
 
     def __init__(self,login_username,password):
 
