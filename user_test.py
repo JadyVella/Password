@@ -49,8 +49,8 @@
 
          self.new_user.save_user()
          test_user = User("Test", "password")
-#         test_user.save_user()
-#         self.assertEqual(len(User.user_list),2)
+         test_user.save_user()
+         self.assertEqual(len(User.user_list),2)
 
 
  if __name__ == '__main__':
