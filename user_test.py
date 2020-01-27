@@ -35,7 +35,7 @@
          self.assertEqual(len(User.user_list),1)
 
 
-#     def tearDown(self):
+     def tearDown(self):
 #         '''
 #         tearDown method that does clean up after each test case has run.
 #         '''
