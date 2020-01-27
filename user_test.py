@@ -14,7 +14,7 @@
          Set up method to run before each test cases.
          '''
 
-#         self.new_user = User("Jady","SecretKey")
+         self.new_user = User("Jady","SecretKey")
 
 
 #     def test_init(self):
