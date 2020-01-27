@@ -48,7 +48,7 @@ class TestUser(unittest.TestCase):
          '''
 
          self.new_user.save_user()
-         test_user = User("Test", "ScretKey")
+         test_user = User("Jady", "ScretKey")
          test_user.save_user()
          self.assertEqual(len(User.user_list),2)
 
@@ -58,7 +58,7 @@ class TestUser(unittest.TestCase):
          '''
 
          self.new_user.save_user()
-         test_user = User("Test", "SecretKey")
+         test_user = User("Jady", "SecretKey")
          test_user.save_user()
 
          self.new_user.delete_user()
@@ -70,7 +70,7 @@ class TestUser(unittest.TestCase):
          '''
 
          self.new_user.save_user()
-         test_user = User("Test", "SecretKey")
+         test_user = User("Jady", "SecretKey")
          test_user.save_user()
 
          found_user = User.find_by_password("SecretKey")

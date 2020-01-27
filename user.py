@@ -35,6 +35,10 @@ class User:
         Method that takes in password and display the user that matches the password
         '''
 
+        for user in cls.user_list:
+            if user.password == password:
+                return user
+
 
 
 
