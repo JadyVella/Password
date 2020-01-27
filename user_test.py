@@ -82,6 +82,14 @@ class TestUser(unittest.TestCase):
          test to check if we can return a boolean if user doesn't exist
          '''
 
+         self.new_user.save_user()
+         test_user = User("Jady", "SecretKey")
+         test_user.save_user()
+
+         user_exists = User.user_exist("SecretKey")
+
+         self.assertTrue(user_exists)
+
 
 
     
