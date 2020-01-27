@@ -26,5 +26,9 @@ The person who created this file and styled it is Felix
 To view this project follow this link https://jadyvella.github.io/Password/
 
 # Technologies
-* Python
+* Python3.7
 
+# Contact Information
+* Email: felixouma379@gmail.com
+* Cell no.: +254792231660
+* Facebook: Jady Vella
