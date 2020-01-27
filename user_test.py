@@ -43,15 +43,15 @@
 #         User.user_list = []
     
      def test_save_multiple_user(self):
-#         '''
-#         test_save_multiple_user to test if we can save a variety of user objects to the user_list
-#         '''
+         '''
+         test_save_multiple_user to test if we can save a variety of user objects to the user_list
+         '''
 
-#         self.new_user.save_user()
-#         test_user = User("Test", "password")
+         self.new_user.save_user()
+         test_user = User("Test", "password")
 #         test_user.save_user()
 #         self.assertEqual(len(User.user_list),2)
 
 
-# if __name__ == '__main__':
-#     unittest.main()
+ if __name__ == '__main__':
+     unittest.main()
