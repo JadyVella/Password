@@ -13,3 +13,11 @@ class Credential:
         self.last_name = last_name
         self.phone_number = number
         self.email = email
+
+    def save_credentials(self):
+
+        '''
+        save_credentials method saves credentials objects into credential_list
+        '''
+
+        Credential.credential_list.append(self)
