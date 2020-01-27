@@ -14,11 +14,11 @@
 
 
       def save_user(self):
-#          '''
-#          save_user method saves user into the list
-#          '''
+          '''
+          save_user method saves user into the list
+          '''
 
-#          User.user_list.append(self)
+          User.user_list.append(self)
 
 
 
