@@ -22,5 +22,9 @@ THIS APPLICATION SHOULD ENABLE ONE TO:
 # Author Information
 The person who created this file and styled it is Felix
 
-# Set UP Instructions
+# Set Up Instructions
 To view this project follow this link https://jadyvella.github.io/Password/
+
+# Technologies
+* Python
+
