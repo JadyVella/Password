@@ -18,11 +18,11 @@
 
 
      def test_init(self):
-#         '''
-#         test_init test case to test if the object is properly initialized
-#         '''
+         '''
+         test_init test case to test if the object is properly initialized
+         '''
 
-#         self.assertEqual(self.new_user.login_username,"Jady")
+         self.assertEqual(self.new_user.login_username,"Jady")
 #         self.assertEqual(self.new_user.password,"SecretKey")
 
     
