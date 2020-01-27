@@ -23,7 +23,7 @@
          '''
 
          self.assertEqual(self.new_user.login_username,"Jady")
-#         self.assertEqual(self.new_user.password,"SecretKey")
+         self.assertEqual(self.new_user.password,"SecretKey")
 
     
 #     def test_save_user(self):
