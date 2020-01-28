@@ -32,3 +32,7 @@ To view this project follow this link https://jadyvella.github.io/Password/
 * Email: felixouma379@gmail.com
 * Cell no.: +254792231660
 * Facebook: Jady Vella
+
+# Licence & Copyright
+- Licensed under [MIT LICENCE](LICENCE)
+Copyright (c) 2020 **Felix Ouma**
